@@ -1,0 +1,22 @@
+{
+    "COD0": {
+        "id": "COD0",
+        "tipo": "ROTEADOR",
+        "descricao": ""
+    },
+    "COD1": {
+        "id": "COD1",
+        "tipo": "DRV",
+        "descricao": ""
+    },
+    "COD2": {
+        "id": "COD2",
+        "tipo": "MODEM",
+        "descricao": ""
+    },
+    "COD3": {
+        "id": "COD3",
+        "tipo": "COMPUTADOR",
+        "descricao": ""
+    }
+}

@@ -1,0 +1,104 @@
+{
+	"equipamento": {
+		"titulo": "Equipamento",
+		"campos": {
+			"modelo": {
+				"id": "modelo",
+				"titulo": "Modelo",
+				"tipo": "text",
+				"referencia": "",
+				"campo": ""
+			},
+			"fabricante": {
+				"id": "fabricante",
+				"titulo": "Fabricante",
+				"tipo": "referencia",
+				"referencia": "fabricantes",
+				"campo": "nome"
+			},
+			"tipo": {
+				"id": "tipo",
+				"titulo": "Tipo",
+				"tipo": "referencia",
+				"referencia": "tipos",
+				"campo": "tipo"
+			}
+		}
+	},
+	"fabricantes": {
+		"titulo": "Fabricantes",
+		"campos": {
+			"nome": {
+				"id": "nome",
+				"titulo": "Nome",
+				"tipo": "text",
+				"referencia": "",
+				"campo": ""
+			}
+		}
+	},
+	"tipos": {
+		"titulo": "Tipos",
+		"campos": {
+			"tipo": {
+				"id": "tipo",
+				"titulo": "Tipo",
+				"tipo": "text",
+				"referencia": "",
+				"campo": ""
+			},
+			"descricao": {
+				"id": "descricao",
+				"titulo": "Descri\u00e7\u00e3o",
+				"tipo": "text",
+				"referencia": "",
+				"campo": ""
+			}
+		}
+	},
+	"memorias_ram": {
+		"titulo": "Memorias Ram",
+		"campos": {
+			"fabricante": {
+				"id": "fabricante",
+				"titulo": "Fabricante",
+				"tipo": "referencia",
+				"referencia": "fabricantes",
+				"campo": "nome"
+			},
+			"capacidade": {
+				"id": "capacidade",
+				"titulo": "Capacidade",
+				"tipo": "number",
+				"referencia": "",
+				"campo": ""
+			},
+			"Velocidade": {
+				"id": "Velocidade",
+				"titulo": "Velocidade (Clock)",
+				"tipo": "number",
+				"referencia": "",
+				"campo": ""
+			},
+			"Slot": {
+				"id": "Slot",
+				"titulo": "Slot",
+				"tipo": "referencia",
+				"referencia": "slotsram",
+				"campo": "tipo"
+			}
+		}
+	},
+	"slotsram": {
+		"titulo": "Slots Ram",
+		"campos": {
+			"tipo": {
+				"id": "tipo",
+				"titulo": "Tipo",
+				"tipo": "text",
+				"referencia": "",
+				"campo": ""
+			}
+		}
+	}
+}

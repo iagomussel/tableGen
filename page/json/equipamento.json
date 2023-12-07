@@ -1,0 +1,20 @@
+{
+    "COD0": {
+        "id": "COD0",
+        "modelo": "RVD",
+        "fabricante": "COD0",
+        "tipo": "COD0"
+    },
+    "COD1": {
+        "id": "COD1",
+        "modelo": "TES-0099",
+        "fabricante": "COD3",
+        "tipo": "COD2"
+    },
+    "COD2": {
+        "id": "COD2",
+        "modelo": "HORRIVEL-09",
+        "fabricante": "COD1",
+        "tipo": "COD2"
+    }
+}
